@@ -60,8 +60,8 @@ defaults:
 facebook:
   username: "Martin.Mikulic94"  # https://www.facebook.com/Martin.Mikulic94/
 
-  analytics:
+analytics:
   provider: "google-gtag"
   google:
     tracking_id: "G-F5HPS37EW7"
-    anonymize_ip: false # default
+    anonymize_ip: false
