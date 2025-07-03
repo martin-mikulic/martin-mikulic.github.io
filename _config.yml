@@ -57,3 +57,11 @@ defaults:
       layout: single
       author_profile: true
 
+facebook:
+  username: "Martin.Mikulic94"  # https://www.facebook.com/Martin.Mikulic94/
+
+  analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-F5HPS37EW7"
+    anonymize_ip: false # default
