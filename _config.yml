@@ -1,0 +1,59 @@
+title: "Martin Mikulić 3D Portfolio"
+name: "Martin Mikulić"
+description: "3D Environment Artist | Game Assets | Level Design"
+url: "https://martin-mikulic.github.io"
+baseurl: "" # No subpath for User Page
+repository: "martin-mikulic/martin-mikulic.github.io"
+
+# Minimal Mistakes theme
+theme: minimal-mistakes-jekyll
+
+# Site author
+author:
+  name: "Martin Mikulić"
+  avatar: "/assets/images/avatar.jpg" # optional
+  bio: "3D Environment Artist passionate about immersive game worlds."
+  location: "Bosnia and Herzegovina"
+  links:
+    - label: "ArtStation"
+      icon: "fab fa-artstation"
+      url: "https://www.artstation.com/martinmikulic"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/martinmikulic"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:mmmikuliccc@gmail.com"
+
+# Social sharing
+twitter_username: mikulic_martin
+github_username: martin-mikulic
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+# Plugins (safe for GitHub Pages)
+plugins:
+  - jekyll-include-cache
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+
