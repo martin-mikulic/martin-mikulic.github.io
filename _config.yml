@@ -6,7 +6,7 @@ baseurl: "" # No subpath for User Page
 repository: "martin-mikulic/martin-mikulic.github.io"
 
 # Minimal Mistakes theme
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Site author
 author:
