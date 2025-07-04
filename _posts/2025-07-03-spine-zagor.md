@@ -10,28 +10,49 @@ tags:
 header:
   image: /assets/images/spine-zagor-header.jpg
   caption: "Playable demo built with Unity WebGL"
-excerpt: "Try the Spine Zagor game directly in your browser."
+excerpt: "Try the Spine Zagor game in both Landscape and Portrait modes directly in your browser."
 ---
 
 ![Gameplay Screenshot](/assets/images/spine-zagor-screenshot.jpg)
 
-Spine Zagor is an action-adventure prototype built in Unity, exported as a WebGL build for instant play in the browser.
+# 🦅 Zagor Spine - Live Wallpaper Showcase
 
-You can test the demo right here:
+Welcome to **Zagor Spine**, an experimental **live wallpaper** project inspired by the classic Italian comic hero **Zagor**.  
+This project is part of my learning journey exploring **Spine 2D workflows**, Unity integration, and web deployment.
+
+Below you can try **both modes**:
+And here you can read more [View project README](https://martin-mikulic.github.io/Spine_Zagor/)
+
+
+---
+
+## 🌄 Landscape Mode
 
 <div class="iframe-container">
   <iframe src="/Spine_Zagor/landscape/index.html" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <p>
-  <a href="/Spine_Zagor/landscape/" target="_blank" rel="noopener">Open in full screen</a>
+  <a href="/Spine_Zagor/landscape/index.html" target="_blank" rel="noopener">Open Landscape Full Screen</a>
+</p>
+
+---
+
+## 📱 Portrait Mode
+
+<div class="iframe-container">
+  <iframe src="/Spine_Zagor/portrait/index.html" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<p>
+  <a href="/Spine_Zagor/portrait/index.html" target="_blank" rel="noopener">Open Portrait Full Screen</a>
 </p>
 
 <style>
 .iframe-container {
   position: relative;
   width: 100%;
-  padding-bottom: 62.5%; /* 960/600 aspect ratio */
+  padding-bottom: 62.5%; /* adjust aspect ratio if needed */
   height: 0;
   margin-bottom: 1em;
 }
