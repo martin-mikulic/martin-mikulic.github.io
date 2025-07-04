@@ -10,7 +10,7 @@ tags:
 header:
   image: /assets/images/spine-zagor-header.jpg
   caption: "Playable demo built with Unity WebGL"
-excerpt: "Try the Spine Zagor game in both Landscape and Portrait modes directly in your browser."
+excerpt: "Try the Spine Zagor game in Landscape and Portrait modes directly in your browser."
 ---
 
 ![Gameplay Screenshot](/assets/images/spine-zagor-screenshot.jpg)
@@ -20,9 +20,8 @@ excerpt: "Try the Spine Zagor game in both Landscape and Portrait modes directly
 Welcome to **Zagor Spine**, an experimental **live wallpaper** project inspired by the classic Italian comic hero **Zagor**.  
 This project is part of my learning journey exploring **Spine 2D workflows**, Unity integration, and web deployment.
 
-Below you can try **both modes**:
+Below you can try the **Landscape Mode** immediately. The **Portrait Mode** build will only load when you choose to.
 And here you can read more [View project README](https://martin-mikulic.github.io/Spine_Zagor/)
-
 
 ---
 
@@ -40,9 +39,11 @@ And here you can read more [View project README](https://martin-mikulic.github.i
 
 ## 📱 Portrait Mode
 
-<div class="iframe-container">
-  <iframe src="/Spine_Zagor/portrait/index.html" frameborder="0" allowfullscreen></iframe>
-</div>
+<p>
+  <button id="loadPortrait">Load Portrait Mode</button>
+</p>
+
+<div id="portraitContainer"></div>
 
 <p>
   <a href="/Spine_Zagor/portrait/index.html" target="_blank" rel="noopener">Open Portrait Full Screen</a>
@@ -52,7 +53,7 @@ And here you can read more [View project README](https://martin-mikulic.github.i
 .iframe-container {
   position: relative;
   width: 100%;
-  padding-bottom: 62.5%; /* adjust aspect ratio if needed */
+  padding-bottom: 62.5%;
   height: 0;
   margin-bottom: 1em;
 }
@@ -65,3 +66,12 @@ And here you can read more [View project README](https://martin-mikulic.github.i
   border: 1px solid #ccc;
 }
 </style>
+
+<script>
+document.getElementById("loadPortrait").addEventListener("click", function() {
+  var container = document.getElementById("portraitContainer");
+  container.innerHTML = '<div class="iframe-container"><iframe src="/Spine_Zagor/portrait/index.html" frameborder="0" allowfullscreen></iframe></div>';
+  this.disabled = true;
+  this.innerText = "Portrait Mode Loading...";
+});
+</script>
