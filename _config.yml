@@ -57,6 +57,20 @@ defaults:
       layout: single
       author_profile: true
 
+    # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      comments: true
+
+comments:
+  provider: "facebook"
+  facebook:
+    appid: # optional
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
+    
 facebook:
   username: "Martin.Mikulic94"  # https://www.facebook.com/Martin.Mikulic94/
 
@@ -65,3 +79,4 @@ analytics:
   google:
     tracking_id: "G-F5HPS37EW7"
     anonymize_ip: false
+
