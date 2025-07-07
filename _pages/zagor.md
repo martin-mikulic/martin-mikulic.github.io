@@ -9,11 +9,11 @@ permalink: /zagor/
 Below you can play the Spine Zagor Unity WebGL build right in the page.
 
 <div class="iframe-container">
-  <iframe src="/Spine_Zagor/index.html" frameborder="0" allowfullscreen></iframe>
+  <iframe src="/Spine_Zagor/landscape/index.html" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <p>
-  <a href="/Spine_Zagor/" target="_blank" rel="noopener">Open in full screen</a>
+  <a href="/Spine_Zagor/landscape" target="_blank" rel="noopener">Open in full screen</a>
 </p>
 
 <style>
