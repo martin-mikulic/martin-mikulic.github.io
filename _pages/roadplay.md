@@ -6,7 +6,16 @@ permalink: /roadplay/
 
 # Roadplay
 
-Below you can read the whole documentation that is currently on Github
+Below you can road the documentation that is currently on Github
+<div class="iframe-container">
+  <iframe src="https://github.com/martin-mikulic/Roadplay" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<p>
+  <a href="[/Roadplay](https://github.com/martin-mikulic/Roadplay)" target="_blank" rel="noopener">Open in full screen</a>
+</p>
+
+Below you can "play" early version of "Roadplay" that is currently on Github
 <div class="iframe-container">
   <iframe src="/Roadplay" frameborder="0" allowfullscreen></iframe>
 </div>
