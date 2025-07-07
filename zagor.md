@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Spine Zagor"
-permalink: /spine-zagor/
+title: "Zagor"
+permalink: /zagor/
 ---
 
 # Spine Zagor – WebGL Demo

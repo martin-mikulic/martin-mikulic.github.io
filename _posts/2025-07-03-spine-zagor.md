@@ -8,7 +8,7 @@ tags:
   - WebGL
   - Game Demo
 header:
-  image: /assets/images/spine-zagor-header.jpg
+  image: /assets/images/your-hero-image_png8.png
   caption: "Playable demo built with Unity WebGL"
 excerpt: "Try the Spine Zagor game in Landscape and Portrait modes directly in your browser."
 ---
@@ -21,7 +21,7 @@ Welcome to **Zagor Spine**, an experimental **live wallpaper** project inspired 
 This project is part of my learning journey exploring **Spine 2D workflows**, Unity integration, and web deployment.
 
 Below you can try the **Landscape Mode** immediately. The **Portrait Mode** build will only load when you choose to.
-And here you can read more [View project README](https://martin-mikulic.github.io/Spine_Zagor/)
+And here you can read more [View more info on github](https://martin-mikulic.github.io/Spine_Zagor/)
 
 ---
 
