@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Roadplay"
-permalink: /roadplay/
+permalink: /captain_claw_page/
 ---
 
 # Roadplay

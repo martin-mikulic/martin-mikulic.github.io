@@ -2,9 +2,11 @@
 layout: home
 author_profile: true
 header:
-  overlay_image: /assets/images/your-hero-image.jpg
+  overlay_image: assets/images/your-hero-image_png8.png
   overlay_filter: 0.3
   caption: "Unity environment from my work at Rolla"
+sidebar:
+  nav: "main"
 ---
 
 Welcome to my 3D art portfolio. I create immersive environments for games and interactive media. Explore my latest projects below.
