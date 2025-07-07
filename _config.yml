@@ -39,6 +39,8 @@ collections:
 plugins:
   - jekyll-include-cache
 
+include: ["_pages"]
+
 # Defaults
 defaults:
   - scope:
@@ -48,7 +50,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: false
+      comments: true
       share: true
   - scope:
       path: ""
