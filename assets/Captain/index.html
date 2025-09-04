@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Spine 4.2.43 Player</title>
+  <link rel="stylesheet" href="spine-player.css">
+
+  <style>
+    body {
+      background: #222;
+      margin: 0;
+      padding: 0;
+    }
+    #player {
+      width: 1080px;
+      height: 1920px;
+      margin: 20px auto;
+      border: 1px solid #555;
+    }
+  </style>
+</head>
+<body>
+  <select id="skeletonSelector">
+    <option value="skeleton1">ultraWin</option>
+    <option value="skeleton2">HeroicDrugaCelin</option>
+    <option value="skeleton3">Captain</option>
+  </select>
+
+  <div id="player"></div>
+
+  <script src="spine-player.js"></script>
+  <script>
+    const skeletons = {
+      skeleton1: { jsonUrl: "ultraWin.json", atlasUrl: "ultraWin.atlas" },
+      skeleton2: { jsonUrl: "HeroicDrugaCelin.json", atlasUrl: "HeroicDrugaCelin.atlas" },
+      skeleton3: { jsonUrl: "assets/Captain/captain.json", atlasUrl: "assets/Captain/captain.atlas" }
+    };
+
+    let player;
+
+    function loadSkeleton(name) {
+      const data = skeletons[name];
+
+      // Remove old player
+      if (player) {
+        player.dispose();
+        document.getElementById("player").innerHTML = "";
+      }
+
+      // Create new player
+      player = new spine.SpinePlayer("player", {
+        jsonUrl: data.jsonUrl,
+        atlasUrl: data.atlasUrl,
+        backgroundColor: "#00000000",
+        premultipliedAlpha: false,
+        controlBones: ["Claw"],
+      });
+    }
+
+    // Load default skeleton
+    loadSkeleton("skeleton1");
+
+    // Change skeleton on dropdown
+    document.getElementById("skeletonSelector").addEventListener("change", e => {
+      loadSkeleton(e.target.value);
+    });
+  </script>
+</body>
+</html>
