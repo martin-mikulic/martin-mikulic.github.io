@@ -1,4 +1,4 @@
-HeroicDrugaCelin.png
+heroicdrugacelin.png
 size:4089,3129
 filter:Linear,Linear
 pma:true
@@ -60,7 +60,7 @@ pole
 bounds:1525,2851,276,1611
 rotate:90
 
-HeroicDrugaCelin_2.png
+heroicdrugacelin_2.png
 size:3486,3097
 filter:Linear,Linear
 pma:true
